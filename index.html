@@ -349,15 +349,73 @@
 
     <!-- Contact -->
     <section class="contact-section" id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        Interested in connecting? Reach out on LinkedIn to discuss
-        IT opportunities, projects, or collaboration.
-      </p>
-      <a class="button" href="https://www.linkedin.com/in/bandjougou-drame" target="_blank" rel="noopener noreferrer">
-        Connect on LinkedIn
-      </a>
-    </section>
+  <h2>Contact Me</h2>
+  <p>
+    Have a question or an opportunity to share?
+    Send me a message using the form below.
+  </p>
+
+  <form
+    class="contact-form"
+    action="https://formsubmit.co/bandjougoudrame07@gmail.com"
+    method="POST"
+  >
+    <input
+      type="hidden"
+      name="_subject"
+      value="New portfolio contact message"
+    >
+
+    <label for="contact-name">Name</label>
+    <input
+      id="contact-name"
+      type="text"
+      name="name"
+      autocomplete="name"
+      placeholder="Your name"
+      required
+    >
+
+    <label for="contact-email">Email</label>
+    <input
+      id="contact-email"
+      type="email"
+      name="email"
+      autocomplete="email"
+      placeholder="Your email address"
+      required
+    >
+
+    <label for="contact-subject">Subject</label>
+    <input
+      id="contact-subject"
+      type="text"
+      name="subject"
+      placeholder="What would you like to discuss?"
+      required
+    >
+
+    <label for="contact-message">Message</label>
+    <textarea
+      id="contact-message"
+      name="message"
+      rows="6"
+      placeholder="Write your message here"
+      required
+    ></textarea>
+
+    <button class="button" type="submit">Send Message</button>
+  </form>
+
+  <a
+    class="button button-outline"
+    href="https://www.linkedin.com/in/bandjougou-drame"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Connect on LinkedIn
+  </a>
+</section>
   </main>
 
   <footer>
